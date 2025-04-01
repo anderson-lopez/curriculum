@@ -92,7 +92,7 @@ export default function ModernResume() {
           <Separator className={styles.separator} />
 
           {/* Layout de dos columnas */}
-          <div className="grid md:grid-cols-3 gap-6 p-6 md:p-8">
+          <div className="flex flex-col-reverse md:grid md:grid-cols-3 gap-6 p-6 md:p-8">
             {/* Columna izquierda */}
             <div className="space-y-8">
               {/* Información de contacto */}
