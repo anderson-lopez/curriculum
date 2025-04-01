@@ -15,7 +15,7 @@ export const contactInfo = [
   {
     icon: Linkedin,
     text: "anderson-lopez-2a9a43",
-    href: "https://linkedin.com/in/anderson-lopez-2a9a43/",
+    href: "https://www.linkedin.com/in/anderson-lopez-68bb76213",
   },
 ];
 
