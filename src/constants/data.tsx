@@ -7,7 +7,7 @@ import {
   Phone,
   Server,
 } from "lucide-react";
-import { SkillColors, Specialization } from "../interfaces/curriculum.interface";
+import { SkillColors, Specialization, ThemeStyles } from "../interfaces/curriculum.interface";
 
 export const contactInfo = [
   { icon: Phone, text: "+57 3242574768" },
@@ -118,7 +118,7 @@ export const themes: { name: string; value: "light" | "dark" | "blue" }[] = [
   { name: "Azul", value: "blue" },
 ];
 
-export const themeStyles = {
+export const themeStyles: ThemeStyles = {
   light: {
     bg: "bg-white",
     card: "bg-slate-50",

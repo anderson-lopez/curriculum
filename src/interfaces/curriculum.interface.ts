@@ -22,3 +22,21 @@ export interface Specialization {
   icon: ForwardRefExoticComponent<Omit<LucideProps, "ref"> & RefAttributes<SVGSVGElement>>;
   skills: Skill[];
 }
+
+export interface ThemeStyle {
+  bg: string;
+  card: string;
+  primary: string;
+  secondary: string;
+  accent: string;
+  border: string;
+  button: string;
+  separator: string;
+  skillPill: string;
+}
+
+export interface ThemeStyles {
+  light: ThemeStyle;
+  dark: ThemeStyle;
+  blue: ThemeStyle;
+}
